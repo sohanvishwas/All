@@ -1,0 +1,2 @@
+I want to learn JavaScript tomorrow.
+Then I'll move to React JS.

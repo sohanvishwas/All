@@ -1,0 +1,27 @@
+.Full{
+    height: 600px;
+    width: 650px;
+    margin: auto;
+    position: relative;
+    background-image: url("Advance technologies img.jpeg");
+    background-size: cover;
+    
+}
+.option{
+    height: 20%;
+    width: auto;
+    background-color:rgb(204, 202, 202);
+    position: relative;
+    top: 440px;
+    padding: 20px 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius:12px ;
+}
+button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 20px;
+}

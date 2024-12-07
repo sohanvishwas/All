@@ -1,0 +1,60 @@
+.Full{
+    height: 640px;
+    width: 450px;
+    margin: auto;
+    border: 2px solid white;
+    background-color: rgb(200, 248, 248);
+    
+}
+.Goa{
+    height: 150px;
+    width: 450px;
+
+}
+.second{
+    margin-left: 40px;
+}
+p{  
+    font-size: 0.9rem;
+    margin: -3px;
+}
+
+.third{
+    height: 100px;
+    width: 400px;
+    margin-left: 22px;
+
+}
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img{
+    height: 70px;
+    width: 110px;
+    border-radius: 6px;
+}
+.fourth{
+    margin-top: 30px;
+    margin-left: 40px;
+    
+
+}
+.video{
+    height: 100px; 
+    width: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -15px;
+    
+    
+}
+.vdo{
+   border-radius: 6px;
+
+   
+
+}
+

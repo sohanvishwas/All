@@ -1,0 +1,56 @@
+.Full{
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    background-image: url("Chat box img.jpg");
+    background-size: cover;
+}
+
+h2{
+    color: white;
+    background-color: rgb(84, 83, 95);
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container{
+    height:500px;
+    width: 500px;
+    margin: 60px 0px;   
+}
+
+.you{
+    height: 6%;
+    width: 94%;
+    font-size:0.94rem;
+    color: white;
+    background-color: blue;
+    border-radius: 12px;
+    border-bottom-right-radius: 0%;
+    margin: 2%;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: 10px;  
+}
+
+.friend{
+    height: 6%;
+    width: 94%;
+    font-size: 0.94rem;
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 8px; 
+    border-radius: 12px;
+    border-bottom-left-radius: 0%;
+    align-items:center;
+    display: flex;
+    margin: 2%;
+    margin-top: 10px;
+}
+
+p{
+    margin: 10px 10px;
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 800px;
+    width: 1350px;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#C5FF32, rgb(236, 232, 232));
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#head{
+    color:rgb(240, 75, 10);
+    font-size: 40px;
+    text-align: center;
+}
+.inner{
+    height: 54%;
+    width: 100%;
+    display: flex;
+}
+.one{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(59, 62, 228), rgb(255, 255, 255));
+}
+.text{
+    height: 90%;
+    width: 60%;
+}
+#fitness{
+    font-size: 30px;
+    color: white;
+    margin: 4%;
+}
+#gym{
+    font-size: 45px;
+    margin: 4%;
+    color: rgb(240, 95, 43);
+}
+#smart{
+    color: white;
+    margin: 4%;
+}
+#best{
+    font-size: x-large;
+    color: aqua;
+    margin: 4%;
+}
+button{
+  align-items: center;
+  border-radius: 5px;
+  color: #36395A;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin: 4%;
+}
+button:hover{
+    border: 2px solid white;
+    background-color: #C5FF32;
+}
+a{
+    font-size: large;
+    margin-left: 10%;
+    color: blue;
+    text-decoration: none;
+}
+.two{
+    width: 41.5%;
+    background-image: url(https://img.freepik.com/premium-vector/fitness-lifestyle-cute-doodle-set-with-lettering-funny-cartoon-strong-man-healthy-food-hand-drawn-flat-illustration_175690-74.jpg);
+    background-size: cover;
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgb(212, 210, 210), rgb(31, 30, 30));
+}
+.first{
+    height: 45%;
+    width: 100%;
+}
+.second{
+    height: 45%;
+    width: 12%;
+    margin-left: 44%;
+    background-color: black;
+    display: flex;
+    justify-content:space-between ;
+    border: 2px solid black;
+}
+#icn{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+

@@ -1,0 +1,24 @@
+.Full{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    background-image: url("coding bg img.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 300px;
+    width: 300px;
+    color:white;
+    border: 6px solid rgb(95, 211, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+}

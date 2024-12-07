@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Book Catalog</h1>
+        <input type="text" id="searchInput" placeholder="Search by title, author, or genre...">
+        <button onclick="searchBooks()">Search</button>
+    </header>
+
+    <main>
+        <div id="book-list" class="book-list">
+        </div>
+    </main>
+
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('bookModal')">&times;</span>
+            <div id="bookDetails">
+            </div>
+        </div>
+    </div>
+
+    <div id="authorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('authorModal')">&times;</span>
+            <div id="authorDetails">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Book Catalog. All books available.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

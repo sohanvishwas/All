@@ -1,0 +1,138 @@
+
+/*HTML  basic baate-
+  1.HTML is not a programming language
+  2.Used to design webpages
+  3.Tim Berners lee in 1990(around)
+  4.Download VS Code and Live Server
+  5.Lets start with tages
+  
+*/
+
+/*Basic Structure of HTML and Boiler Plate-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+  </html>
+
+ *Basic Structure of CSS and Boiler Plate-
+  *{
+    margin:0%;     
+    padding:0%;
+  }
+  html,body{
+    width:100%;
+    height:100%;
+  }
+
+*/
+
+/*HTML Tags-
+  >Heading Tag-
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    
+    <h1>lorem<br>lorem1<br>lorem2<br>lorem100 </h1>
+
+  >Paragraph Tag-
+    <p>This is a paragraph</p>
+
+    <p>lorem<br>lorem10<br><br>lorem200</p> (&nbsp-for space)
+  
+  >Image Tag-
+    <img src="add image link" alt="add same/2nd image link(Optional)"> (src & alt are attributes)
+
+
+  >Anchor Tag-
+    <a target="_blank" href="add website link ">Click Me</a> (target attributes use for new tab)
+
+  
+  >div Tags-
+   <div>
+     <h1>Heading</h1>
+     <p>This is a Paragraph</p>
+   </div>
+  
+*/
+/*CSS-(Inline,Internal,External)
+  >Inline CSS-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <p style="background-color:red; color:blue;">This is a paragraph</p>  
+  </body>
+  </html>
+
+  
+  
+  >Internal CSS-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: red;
+            color: blue;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <p>This is a paragraph</p>  
+  </body>
+  </html>
+
+
+  >External CSS-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> (link CSS file)
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <p>This is a paragraph</p>  
+  </body>
+  </html>
+
+
+
+*/
+
+/*CSS-
+  >display:flex;
+   align-items:center;
+   justify-content:center;
+
+  >#box1{
+    height:100px;
+    width:100px;
+    background-color:red;
+    border-width:2px;
+    border-style:dashed/dotted/solid/none;
+    border-radius:5px;
+
+  }
+*/

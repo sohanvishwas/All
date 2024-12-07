@@ -1,0 +1,268 @@
+
+/* one */
+p{
+    color: aqua;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    /* text-decoration: underline wavy; */
+}
+a{
+    text-decoration: none;
+}
+
+/* two =Element,Class,Id,Attribute,Descendant,Pseudo(hover,visited link) Selectors and All elements Selectors*/
+li{
+    font-weight: 500;
+    font-size: 24px;
+}
+#html{
+    color: brown;
+    
+}
+#css{
+    color: #254BDD;
+}
+
+.js{
+    color: #EFD81D;
+}
+.react{
+    color: rgb(117, 201, 235);
+}
+.tailwind{
+    color: rgb(6, 66, 90);
+}
+
+[class]{
+    background-color: aquamarine;
+}
+
+ul p{
+    background-color: antiquewhite;
+}
+
+h3:hover{
+    color: chocolate;
+}
+a:visited{
+    color: blue;
+}
+
+*{
+    background-color: white;
+}
+/* Three =Cascade,Specificity(id=(1,0,0),class=(0,1,0),element=(0,0,1)) & Inheritance */
+#list.order{
+    background-color: aqua;
+}
+#list{
+    background-color: gray;
+}
+.order{
+    background-color: aqua;
+}
+li{
+    color: brown;
+}
+li{
+    color: orangered;
+}
+
+/* Four =Practice HTML & CSS with freecodecamp */
+
+/* Five =Important Keyword in CSS */
+#h2{
+    background-color: aqua !important;
+}
+#h2#h2{
+    background-color: black !important;
+}
+
+/* Six & Seven =CSS Box Model (part 1 & 2) */
+*{
+    box-sizing: border-box;
+}
+.boxModel{
+    background-color: white;
+}
+.one{
+    background-color: aquamarine;
+    max-width: 500px;
+    min-height: 100px;
+    overflow: hidden;
+    /* word-break: break-all; */
+}
+.two{
+    background-color: blueviolet;
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+.parent{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+.child{
+    color: blue;
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 5px;
+    border: 2px solid;
+}
+.three{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid blue;
+    overflow: hidden;
+    border-radius: 50%;
+    outline: 4px solid orangered;
+}
+img{
+    width: 100%;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
+/* Eight =CSS Box Model with Inline Elements (part 3) */
+.boxModel2{
+    background-color: white;
+}
+.boxModel2 p{
+    background-color: orange;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    margin: 5px;
+}
+.boxModel2 span{
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    outline: 2px solid purple;
+}
+.boxModel2 div{
+    height: 80px;
+    background-color: red;
+    padding: 5px;
+   
+}
+.boxModel2 a{
+    background-color: olive;
+    /* display: none; */
+}
+.boxModel2 img{
+    width: 300px;
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 5px;
+}
+iframe{
+    height: 360px;
+    width: 480px;
+}
+video{
+    width: 400px;
+}
+
+/* Nine =Percentage:The Underestimated CSS Unit */
+/* Ten =rem and em explained in Depth  */
+/* :root{
+    font-size: 16px;
+} */
+.section9{
+    width: 50vw;
+    /* width: 400px;
+    padding: 10%;
+    font-size: 16px; */
+    width: 50vw;
+    height: 10vw;
+    /* font-size: 5vw; */
+    /* font-size: 1em; */
+    font-size: 1rem;
+    border: 1vw solid green;
+    background-color:blueviolet;
+}
+.box9{
+    /* width: 50%;
+    padding: 24px; */
+    background-color: chartreuse;
+    width: 1em;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+/* Eleven =CSS Positions: Static,Relative,Absolute,Fixed,Sticky Explained (Ep. 18) */
+.eleven{
+    background-color: white;
+}
+.eleven p{
+    color: black;
+    font-size: medium;
+    font-family: serif;
+    font-style: normal ;
+    text-align: left;
+}
+.eleven li{
+    color:black;
+}
+
+/* By default elements position are static*/
+
+.eleveninner{
+    position: relative;  
+    background-color: chartreuse;
+    /* top: -53px; */
+    /* bottom: 53px; */
+    /* left: 5px; */
+    /* right: 5px; */
+    /* inset: 5px; */ /*apply all 4 (top,bottom,left,right) proparties*/
+}
+.innercss{
+    position: absolute;
+    background-color: aqua;
+    /* top: -53px; */
+    /* bottom: 53px; */
+    /* left: 5px; */
+    /* right: 5px; */
+    /* inset: 5Px */
+    
+    /* Note: child elements parents or grandparents position properties value is not static then child attached 
+    his parents if there are no properties have his parents or grandparents then child element attached viewport */
+}
+
+.innerjavascript{
+    /* position: fixed; */
+    background-color: darkorange;
+    /* top: -53px; */
+    /* bottom: 53px; */
+    /* left: 5px; */
+    /* right: 5px; */
+    /* inset: 5Px */
+}
+
+.innerhtml{
+    position: sticky;
+    background-color: darkorange;
+    /* top: -53px; */
+    /* bottom: 53px; */
+    /* left: 5px; */
+    /* right: 5px; */
+    /* inset: 5Px */
+}
+
+

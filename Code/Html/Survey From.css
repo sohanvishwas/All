@@ -1,0 +1,42 @@
+.first{
+    height: 600px;
+    width: 950px;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+
+
+}
+.second{
+    height: 500px;
+    width: 880px;
+    background-color: white;
+    margin: auto;
+    
+}
+.part{
+    height:470px;
+    width: 880px;
+    display: flex;
+
+}
+p{
+    text-align: center;
+    font-weight: bold;
+
+}
+.one{
+    height: 460px;
+    width: 50%;
+    text-align: end;
+    /* border: 2px solid black; */
+}
+.two{
+    height: 400px;
+    width: 420px;
+    margin-left: 15px;
+    /* border: 2px solid red; */
+}

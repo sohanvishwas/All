@@ -1,0 +1,26 @@
+.container{
+    height: 550px;
+    width: 800px;
+    /* margin: auto; */
+    background-color: aqua;
+    display: grid;
+    /* grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px; */
+    /* grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr); */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 12px;
+
+    
+}
+#item{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
